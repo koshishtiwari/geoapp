@@ -19,17 +19,18 @@ export default function Index({
 }) {
   name = decodeURIComponent(name)
   city = decodeURIComponent(city)
+  
+
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-gray-50">
       <div className="fixed inset-0 overflow-hidden opacity-75 bg-[#f8fafb]">
         <Image alt="World Map" src={map} fill={true} quality={100} />
       </div>
       <main className="flex flex-col items-center flex-1 px-4 sm:px-20 text-center z-10 pt-8 sm:pt-20">
-        <h1 className="text-3xl sm:text-5xl font-bold">Geolocation</h1>
+        <h1 className="text-3xl sm:text-5xl font-bold">Travels.fyi</h1>
         <p className="mt-4 text-lg sm:text-xl text-gray-700">
-          Show localized content based on headers
+          Show localized content
         </p>
-       
         <section className="border border-gray-300 bg-white rounded-lg shadow-lg mt-16 w-full hover:shadow-2xl transition">
           <div className="p-4 flex justify-center items-between border-b">
             <div className="self-center">
